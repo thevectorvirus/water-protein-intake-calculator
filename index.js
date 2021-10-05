@@ -1,7 +1,7 @@
     const getResult=()=>{
       let enter= document.getElementById('weightInput').value;
       let water = (enter/9).toFixed(2);
-      let protein = (enter/10).toFixed(2);
+      let protein = (enter).toFixed(2);
       let show=document.getElementById('showResult');
 
       if(enter==""){
